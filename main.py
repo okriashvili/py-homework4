@@ -3,25 +3,25 @@
 # # დავალება 1:დაწერეთ პროგრამა, რომელიც მომხმარებელს შემოაყვანინებს წინადადებას,
 # # პირველ სიტყვას და მეორე სიტყვას და შემოყვანილ წინადადებაში
 # # პირველ სიტყვას ჩაანაცვლებს მეორე სიტყვით
-#
-# sentence = input("Enter sentence: ")
-# word1 = input("Enter word you want to be replaced: ")
-# word2 = input("Enter word which will replace the word1: ")
-# replaced_sentnece = sentence.replace(word1, word2)
-# print(replaced_sentnece)
+
+sentence = input("Enter sentence: ")
+word1 = input("Enter word you want to be replaced: ")
+word2 = input("Enter word which will replace the word1: ")
+replaced_sentnece = sentence.replace(word1, word2)
+print(replaced_sentnece)
 #
 #
 # # დავალება 2: დაწერეთ პროგრამა, რომელიც მომხმარებლის მიერ შემოყვანილ წინადადებაში იპოვის ყველაზე გრძელ სიტყვას
 # # და დაბეჭდავს მას. არ გამოიყენოთ max() ფუნქცია!
-# sentence = input("Enter sentence: ")
-# splited_sentence = sentence.split(" ")
-#
-# longest_words = ""
-#
-# for word in splited_sentence:
-#     if len(word) > len(longest_words):
-#         longest_words = word
-# print(longest_words)
+sentence = input("Enter sentence: ")
+splited_sentence = sentence.split(" ")
+
+longest_words = ""
+
+for word in splited_sentence:
+    if len(word) > len(longest_words):
+        longest_words = word
+print(longest_words)
 
 
 
